@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>HS International</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="src/pp.png">
+</head>
+
+<body>
+  <header>
+    <img src="src/logo.png">
+    <div>
+      <div class="inline-item">
+        <ul>
+          <li>
+            <div class="wrap">
+              <div class="search">
+                <input type="text" class="searchTerm" placeholder="What are you looking for?">
+                <button type="submit" class="searchButton" title="Search">
+                  <i class="fa fa-search"></i>
+                </button>
+              </div>
+            </div>
+          </li>
+          <li>
+            <a href="#">Customer Service</a>
+          </li>
+          <li>
+            <ul>
+              <li><a href="">App Download</a></li>
+              <li><a class="fill-orange" href="">Official Forums</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="fill-green" href="#" id="register">Register</a>
+          </li>
+          <li>
+            <ul>
+              <li><input type="text" placeholder="Username"></li>
+              <li><input type="password" placeholder="Password"></li>
+            </ul>
+          </li>
+          <li>
+            <ul>
+              <li><a href="" id="fp">Forgot<br />Password</a></li>
+              <li><a href="" id="login">Login</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <nav class="navlist">
+        <ul>
+          <li><a href="#sport">Sport</a></li>
+          <li><a href="#casino">Casino</a></li>
+          <li><a href="#lottery">Lottery</a></li>
+          <li><a href="#lotto">Lotto</a></li>
+          <li><a href="#cybergame">Cyber Game</a></li>
+          <li><a href="#mobilever">Mobile Ver.</a></li>
+          <li><a href="#promotions">Promotions</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <section>
+    <div class="row">
+      <div class="col-4" style="padding: 5px">
+        <div class="container col-12" style="height: 100%">
+          <div class="carousel">
+            <img src="https://source.unsplash.com/430x340/?card+deck/1000">
+            <img src="https://source.unsplash.com/430x340/?card+deck/1200">
+            <img src="https://source.unsplash.com/430x340/?card+deck/1400">
+            <img src="https://source.unsplash.com/430x340/?card+deck/1600">
+            <img src="https://source.unsplash.com/430x340/?card+deck/1800">
+
+            <div class="track">
+              <div class="btn-left" onclick="plusDivs(-1)">❮</div>
+              <div class="btn-right" onclick="plusDivs(1)">❯</div>
+              <span class="indicator" onclick="currentDiv(1)"></span>
+              <span class="indicator" onclick="currentDiv(2)"></span>
+              <span class="indicator" onclick="currentDiv(3)"></span>
+              <span class="indicator" onclick="currentDiv(4)"></span>
+              <span class="indicator" onclick="currentDiv(5)"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5" style="padding: 5px">
+        <div class="group-container">
+          <div class="ad container col-12">
+            <img class="spinner" src="img/spinner.gif" alt="Loading...">
+          </div>
+
+          <div class="ad container col-12">
+            <img class="spinner" src="img/spinner.gif" alt="Loading...">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3" style="padding: 5px">
+        <div class="ad container col-12">
+          <img class="spinner" src="img/spinner.gif" alt="Loading...">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-4" style="padding: 5px">
+        <div class="container col-12">
+          <div class="list">
+            <label>Activities</label>
+            <ul>
+              <li><a href="#link1">文字</a></li>
+              <li><a href="#link2">文字</a></li>
+              <li><a href="#link3">文字</a></li>
+              <li><a href="#link4">文字</a></li>
+              <li><a href="#link5">文字</a></li>
+              <li><a href="#link5">文字</a></li>
+              <li><a href="#link5">文字</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-5" style="padding: 5px">
+        <div class="container col-12">
+          <div class="pagination">
+            <img src="https://source.unsplash.com/540x340/?soccer/3000">
+            <img src="https://source.unsplash.com/540x340/?soccer/3200">
+            <img src="https://source.unsplash.com/540x340/?soccer/3400">
+            <img src="https://source.unsplash.com/540x340/?soccer/3600">
+            <img src="https://source.unsplash.com/540x340/?soccer/3800">
+
+            <div class="track">
+              <span class="indicator" onclick="setIndexPage(1)">1</span>
+              <span class="indicator" onclick="setIndexPage(2)">2</span>
+              <span class="indicator" onclick="setIndexPage(3)">3</span>
+              <span class="indicator" onclick="setIndexPage(4)">4</span>
+              <span class="indicator" onclick="setIndexPage(5)">5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-3" style="padding: 5px">
+        <div class="group-container">
+          <div class="container col-12" style="padding: 8px 10px">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+          </div>
+
+          <div class="ad container col-12" style="padding: 8px 10px">
+            <img class="spinner" src="img/spinner.gif" alt="Loading...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="">Company Profile</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Privacy Security</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Laws and Regulations</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Terms and Conditions</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Rules of Play</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Joining Cooperation</a></li>
+        <li>&nbsp;|&nbsp;</li>
+        <li><a href="">Webmaster Statistics</a></li>
+      </ul>
+    </nav>
+  </footer>
+
+  <script type="text/javascript" src="js/main.js"></script>
+</body></html>
